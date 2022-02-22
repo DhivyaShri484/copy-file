@@ -23,7 +23,7 @@ Python program for copying the contents from one file to another file.
 Developed by: Dhivya Shri. B
 RegisterNumber: 21002377
 '''
-
+```
 def copy(fname,newfile):
   with open(fname,'r')as fp:
     with open(newfile,'w')as fp1:
@@ -32,7 +32,7 @@ def copy(fname,newfile):
 fname=input("Enter an existing file: ")
 newfile=input("Enter a name for new file: ")
 copy(fname,newfile)
-
+```
 
 ### OUTPUT:
 New Text File "File3.txt":
